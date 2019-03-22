@@ -19,4 +19,3 @@ an array of `Batter` objects which have the attributes of id and type.
 of `Topping` objects that have the attributes of id and type.
 
 Bonus: How can you use inheritance here?
-
