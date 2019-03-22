@@ -1,8 +1,5 @@
-class Topping
-  attr_reader :id, :type
-
-  def initialize(data)
-    @id = data["id"]
-    @type = data["type"]
+class Topping < Record
+  def initialize(topping_data)
+   super(topping_data[:id], topping_data[:type])
   end
 end
